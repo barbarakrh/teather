@@ -1,0 +1,382 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 1080px;
+	background: url(img/1.jpg);
+	background-size: cover;
+}
+
+.back {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 255, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.back .content{
+	width: 85%;
+	height: 85%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.back .content #title{
+	animation: colorize 8s infinite;
+	width: 100%;
+	margin-top: -110px;
+	font-size: 45px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.back .content #title div{
+	background: black;
+	width: 25%;
+	height: 3px;
+}
+
+
+.back .content #center{
+	color: purple;
+	font-size: 35px;
+	border-color: white;
+	border-width: 1px;
+	padding: 10px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+
+#menu {
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.button {
+	background: white;
+	border-color: purple;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	padding: 10px 25px;
+	font-size: 25px;
+}
+
+.button:hover {
+	background: purple;
+}
+
+#info {
+	height: 100%;
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+#info div div{
+	background: white;
+	width: 450px;
+	height: 2px;
+}
+
+
+
+#info div h1{
+	font-size: 100px;
+}
+
+#info div h2{
+	font-size: 50px;
+}
+
+#info div li{
+	font-size: 25px;
+}
+
+.block{
+	width: 100%;
+	height: 1080px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.blockBody{
+	width: 85%;
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.head{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.leftBlank{
+	width: 25%;
+	height: 150px;
+	border-style: solid none none solid;
+	border-color: red;
+	border-width: 2px;
+}
+.rightBlank{
+	width: 25%;
+	height: 150px;
+	border-style: solid solid none none;
+	border-color: red;
+	border-width: 2px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text h1{
+	font-size: 60px;
+	margin-top: -10px;
+}
+.text h2{
+	margin-top: -35px;
+	font-size: 30px;
+
+}
+
+#red{
+	font-family: serif;
+	color: purple;
+	margin-top: -15px;
+}
+
+#purpleBorders{
+	border-style: solid none solid none;
+	border-width: 2px;
+	color: purple;
+	font-size: 30px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#grayBox{
+	width: 100%;
+	height: 100%;
+	background: purple;
+	background-size: cover;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#grayBox ul{
+	width: 50%;
+	font-size: 40px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#purpleHead{
+	width: 85%;
+	padding: 35px 0;
+	border-color: purple;
+	border-width: 2px;
+	border-style: solid;
+	font-size: 50px;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+}
+
+#grayBox2{
+	width: 100%;
+	height: 40%;
+	background: purple;
+	background-size: cover;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#grayBox2 img{
+	width: 250px;
+	height: 250px;
+}
+
+#textUnder{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+
+.textContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 250px;
+	height: 100%;
+	padding-top: 25px;
+}
+
+.underline{
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.description{
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+#goUp{
+	background: purple;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	right: 100px;
+	bottom: 100px;
+	position: fixed;
+	font-size: 25px;
+	animation: move 2s infinite ease-in-out;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background: Gainsboro;
+	color: gray;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#callBackground{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#callbackButton{
+	font-size: 70px;
+	background: purple;
+}
+
+#callbackButton:hover{
+	background: white;
+}
+
+#popupBack{
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 2000px;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	visibility: hidden;
+}
+
+#popup{
+	background: white;
+	width: 25%;
+	height: 300px;
+	margin-top: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-color: purple;
+	border-width: 2px;
+}
+
+#popup form{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+#popup form input{
+	padding: 10px 20px;
+	font-size: 25px;
+	border-color: purple;
+	border-radius: 10px;
+	width: 75%;
+}
+
+@keyframes move{
+	0%{
+		bottom: 100px;
+	}
+	20%{
+		bottom: 120px;
+	}
+	40%{
+		bottom: 100px;
+	}
+	60%{
+		bottom: 115px;
+	}
+	80%{
+		bottom: 100px;
+	}
+}
+@keyframes colorize{
+	0%{
+		color: white;
+	}
+	50%{
+		color: purple;
+	}
+	100%{
+		color: white;
+	}
+}
+
+
+@keyframes width{
+	0%{
+		width: 250px;
+	}
+	50%{
+		width: 600px;
+	}
+	100%{
+		width: 250px;
+	}}
